@@ -1,0 +1,129 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+* {
+    background: #E7F1DB;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+div.center {
+    margin: 0px auto;
+    max-width: 1100px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*alinhamento vertical*/
+    justify-content: space-between;
+}
+
+header img {
+    max-width: 330px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+header nav a {
+    color: #555;
+    padding: 10px;
+}
+
+header nav a:hover {
+    background-color: #D89B9E;
+    color: #fff;
+    border-radius: 20px;
+}
+
+main {
+    border: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main section.left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 10px
+}
+
+main section.left h1 {
+    display: flex;
+    width: 600px;
+    height: 120px;
+    /*superior/ direito/inferior/esquerda*/
+    margin: -30px 80px 0px 0px;
+    font-size: 2.5em;
+    font-weight: 500;
+    background-color: transparent;
+    font-style: normal;
+    writing-mode: horizontal-tb;
+    text-align: justify;
+    flex-wrap: wrap-reverse;
+}
+
+main section.left h1 span {
+    display: flex;
+    color: #D89B9E;
+    height: 50px;
+    font-weight: 500;
+    font-size: 1em;
+    font-family: "Poppins";
+    text-align: center;
+    justify-content: center;
+    margin: 80px 100px -110px 40px;
+    background-color: transparent;
+}
+
+main section.left p {
+    color: #333;
+}
+
+main section.left button {
+    display: flex;
+    background-color: #D89B9E;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 40px;
+    width: 30%;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1, 5;
+    font-weight: 700px;
+    line-height: 30px;
+    justify-content: center;
+    font-family: "Poppins";
+    font-style: bold;
+}
+
+main section.left button:hover {
+    background: black;
+    color: white;
+}
+
+main section.right img {
+    max-width: 330px;
+    /*superior/ direito/inferior/esquerda*/
+    margin: 40px 60px 40px 80px;
+}
+
+div.box {
+    position: absolute;
+    background-color: #D89B9E;
+    width: 1304px;
+    height: 951px;
+    left: 662px;
+    top: 334px;
+    padding: 100px;
+    border-radius: 200px;
+}
